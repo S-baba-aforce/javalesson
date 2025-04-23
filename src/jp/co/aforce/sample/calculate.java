@@ -1,6 +1,6 @@
 package jp.co.aforce.sample;
 
-
+/********* 2章　4 - 16 **********/
 	
 /*4 変数 num に小数 4.5 を代入し、その値を半分にして表示するプログラム。*/		
 public class calculate {
@@ -85,7 +85,7 @@ public class calculate {
 			 double discount = 0.3;
 			 double price2 = price * discount;
 			 double price3 = price - price2;
-			 	System.out.println((int)price3);				 
+			 	System.out.println((int)price3);
 	}		
 	
 }
