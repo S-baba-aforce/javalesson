@@ -1,0 +1,71 @@
+package jp.co.aforce.sample;
+
+import java.util.Scanner;
+
+public class PracticeWhileFor0424 {
+	public static void main(String args[]) {
+		
+		/*=========while文========*/
+		//問１
+		int num = 1;
+		while (num <= 10) {
+			System.out.println("numの値は" + num);
+			num ++;
+		}
+		
+		//問２
+		num = 1;
+		int sum = 0;
+		while (num <= 100) {
+			num++;
+			sum += num;
+			System.out.println("numの合計は" + sum);
+		}
+		
+		//問３
+		Scanner NumberScan = new Scanner (System.in);
+		num = 0;
+		sum = 0;
+		System.out.println("整数を入力せよ（「0」を入力すると終了）：");
+		while ((num = NumberScan.nextInt()) != 0) {
+			System.out.println("→" + num);
+//			num = NumberScan.nextLine();
+//			NumberScan.close();
+			
+//			if (num ==0) {
+//				break;
+//			}
+				sum += num;
+		}
+		NumberScan.close();
+		System.out.println("合計：" + sum);
+		
+		/*=============do-while文==============*/
+		//問１
+		int number = 1;
+		do {
+			System.out.println("numberの値は" + number);
+			number ++;
+		} while (number <= 10);
+		
+		//問２
+		number = 1;
+		int sum2 = 0;
+		do {
+			number++;
+			sum2 += number;
+			System.out.println("numberの合計は" + sum2);
+		} while (number <= 100);
+		
+		//問３
+		
+		/*==============for文===============*/
+		//問１
+		
+		//問２
+		
+		//問３
+		
+	}
+
+}
