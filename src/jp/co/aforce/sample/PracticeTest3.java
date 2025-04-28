@@ -35,18 +35,24 @@ public class PracticeTest3 {
 		//6
 		ArrayList<Integer> list1 = new ArrayList<>();
 		list1.add(10);
-		list1.add(11);
-		list1.add(12);
 		list1.add(15);
 		list1.add(16);
-		list1.add(18);
 		list1.add(19);
-		list1.add(20);
 		
-//		for (Integer list: list1 ) {
-//			Collections.sort(list);
-//			
-//		}
+		ArrayList<Integer> list2 = new ArrayList<>();
+		list2.add(11);
+		list2.add(12);
+		list2.add(18);
+		list2.add(20);
+		
+		list1.addAll(list2);
+		
+		Collections.sort(list1);
+		
+		for (Integer num:list1) {
+			System.out.println(num);
+		}
+		
 		
 		//7	
 		ArrayList<Integer> list3 = new ArrayList<>();	
@@ -56,11 +62,19 @@ public class PracticeTest3 {
 		list3.add(21);
 		
 		
-		for (Integer listAll ; list1.get(), list3.get() ) {
-			Collections.sort(listAll);
-		}	
-			System.out.println(listAll);
+		ArrayList<Integer> twoList = new ArrayList<>();
+			for (Integer num: list1) {
+				twoList.add(num);
+			}
+			for (Integer num: list3) {
+				twoList.add(num);
+			}
 			
+		Collections.sort(twoList);
+		
+		for (Integer num: twoList) {
+			System.out.println(num);
+		}
 		
 	}
 

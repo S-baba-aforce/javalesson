@@ -44,6 +44,7 @@ public class PracticeTest5 {
 		
 		//4
 		
+		
 		//5
 		ArrayList<String> employees = new ArrayList<>();
 		employees.add("斎藤");
@@ -55,6 +56,14 @@ public class PracticeTest5 {
 		ArrayList<String> submitters = new ArrayList<>();
 		employees.add("斎藤");
 		employees.add("高橋");
+		
+		for (String employee: employees) {
+			if (!submitters.contains(employee)) {
+				System.out.println(employee);
+			}
+		}
+		
+		
 		
 //		System.out.println(employees.get(1));
 //		System.out.println(employees.get(2));

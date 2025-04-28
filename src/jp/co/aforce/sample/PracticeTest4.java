@@ -26,6 +26,8 @@ public class PracticeTest4 {
 		
 		
 		//4
+		Calendar calendar = new Calendar;
+		
 		
 	}
 
