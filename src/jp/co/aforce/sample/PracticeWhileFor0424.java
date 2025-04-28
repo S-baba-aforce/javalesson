@@ -61,10 +61,25 @@ public class PracticeWhileFor0424 {
 		
 		/*==============for文===============*/
 		//問１
+		for (int figure = 1; figure<=10; figure ++) {
+			System.out.println("整数を1から10まで並べると" + figure);
+		}
 		
 		//問２
-		
+		int sum5 = 0;
+		for (int figure = 1; figure <= 100; figure ++) {
+			sum += 1;
+			
+			System.out.println("合計→" + sum5);
+		}
 		//問３
+		
+		
+		int y = 13;
+		int z = 17;
+		int total = y + z;
+		System.out.println(total);
+		
 		
 	}
 
