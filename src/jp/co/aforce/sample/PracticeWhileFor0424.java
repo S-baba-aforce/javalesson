@@ -1,6 +1,8 @@
 package jp.co.aforce.sample;
 
+import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class PracticeWhileFor0424 {
 	public static void main(String args[]) {
@@ -80,6 +82,34 @@ public class PracticeWhileFor0424 {
 		int total = y + z;
 		System.out.println(total);
 		
+		/*================拡張for文==================*/
+		//1
+		int[] figures = {1,2,3,4,5};
+		
+		for (int figure : figures ) {
+			System.out.println(figure);
+		}
+		
+		//2
+		ArrayList<String> list = new ArrayList<>();
+		list.add("dog");
+		list.add("fish");
+		list.add("monkey");
+		
+		for (String animal:list) {
+			System.out.println(animal);
+		}
+		
+		//3
+		int[] figures2 = {6,7,8,9};
+		int total1 = 0;
+		
+		for (int figure2:figures2) {
+			total += figure2;
+			
+			System.out.println("合計は" + "" + total1);
+			
+		}
 		
 	}
 
