@@ -1,6 +1,6 @@
 package jp.co.aforce.sample;
 
-//クラス基礎ー問②
+//クラス基礎ー問3
 
 public class Book0425 {
 	String title;

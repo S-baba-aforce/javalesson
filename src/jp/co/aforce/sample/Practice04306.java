@@ -125,13 +125,30 @@ public class Practice04306 {
 		for (TourlistData0430 data: tourlistDatas) {
 			int subTotal = data.calcTotal();
 			total += subTotal;	
+		}
 		
 		System.out.println("全都市の総観光客数→" + total);
 		
 		/*観光客数が100万人を超える都市を抽出する機能*/
+		for (TourlistData0430 data: tourlistDatas) {
+			int subTotal = data.calcTotal();
+			total += subTotal;
 			if (subTotal >= 100) {
 			System.out.println(data.getCityName());
 			}
+		}	
+		/*割合比較*/
+		
+		
+		for (TourlistData0430 data: tourlistDatas) {
+			
+//			double ratio1 = data.getRatio();
+			
+//			if (ratio1 > maxRatio) {
+//				
+//			}
+//		Collections.sort(data.getRatio());
+		System.out.println(data.getCityName() + " → 割合: " + data.getRatio());
 		}
 	}
 

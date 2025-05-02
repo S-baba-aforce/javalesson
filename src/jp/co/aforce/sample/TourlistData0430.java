@@ -37,8 +37,9 @@ public class TourlistData0430 {
 	
 	public int calcTotal() {
 		return this.domesticTourlist + foreignTourlist;
-		
-		
+	}	
+	
+	public double getRatio() {
+		return (double)foreignTourlist/(double)this.calcTotal();
 	}
-
 }
